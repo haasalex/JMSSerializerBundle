@@ -1,5 +1,5 @@
 {
-    "name": "jms/serializer-bundle",
+    "name": "haasalex/serializer-bundle",
     "type": "symfony-bundle",
     "description": "Allows you to easily serialize, and deserialize data of any complexity",
     "keywords": ["serialization", "deserialization", "json", "jaxb", "xml"],
@@ -11,9 +11,15 @@
             "email": "schmittjoh@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/haasalex/serializer"
+        }
+    ],
     "require": {
         "php": ">=5.3.2",
-        "jms/serializer": "~0.12",
+        "haasalex/serializer": "dev-master",
         "symfony/framework-bundle": "~2.1"
     },
     "require-dev": {
